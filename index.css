@@ -53,3 +53,25 @@
     display: flex;
     justify-content: center;
 }
+.what-we-do{
+    margin-top: 70px;
+}
+
+.what-we-do h2{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    text-align: center;
+}
+.part1{
+    display: flex;
+    justify-content: space-around;
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
