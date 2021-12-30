@@ -100,3 +100,65 @@
     }
    
 }
+.name{
+    padding-right: 100px;
+    align-items: center;
+    
+    /* background: rgba(255,255,255,0.5); */
+}
+
+.news-input{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+    /* background: rgba(255,255,255,0.5); */
+}
+
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    
+}
+
+
+
+  ::-webkit-input-placeholder { 
+    color:white;
+  }
+
+  .message{
+      margin: 40px;
+      border: white;
+  }
+
+  .description{
+    
+        display : none;
+        text-align: center;
+        width : 310px;
+        padding : 15px;
+        color: black;
+        margin: 0 auto;
+       
+        
+        
+  }
+  .dev{
+    
+    display : none;
+    text-align: center;
+    width : 310px;
+    padding : 15px;
+   color: black;
+   margin: 0 auto;
+   }
+
+.project{
+    
+    display : none;
+    text-align: center;
+    width : 310px;
+    padding : 15px;
+    color: black;
+    margin: 0 auto;
+ }
