@@ -1,0 +1,22 @@
+.welcome{
+    background-image: url(./images/h_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+#logo{
+    margin-top: 300px;
+    padding-left: 865px;
+   
+}
+#welcome{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+#amazing{
+    text-align: center;
+    color: aliceblue;
+    padding-top: -70px;
+}
