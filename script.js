@@ -26,8 +26,9 @@ const projectIcon = document.querySelector('projIcon')
 
             },
             function(){
-
-                projIcon.style.display='center'
+                $(".management").click(function() {
+                 $(".project").toggle();
+                projIcon.style.display='yes'
             })
            });
 
