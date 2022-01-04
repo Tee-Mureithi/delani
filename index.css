@@ -163,6 +163,12 @@
     margin: 0 auto;
  }
 
+.socials{
+    margin-top: 50px;
+}
+
+
+
  .socials ul {
      list-style: none;
      display: flex;
@@ -172,4 +178,8 @@
 .media-icon{
     margin: 10px;
    
+}
+
+.copyright{
+    text-align: center;
 }
