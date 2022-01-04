@@ -1,36 +1,36 @@
-const designIcon = document.querySelector('.iconDesign')
-const developmentIcon = document.querySelector('.devIcon')
-const projectIcon = document.querySelector('projIcon')
+// const designIcon = document.querySelector('.iconDesign')
+// const developmentIcon = document.querySelector('.devIcon')
+// const projectIcon = document.querySelector('projIcon')
            
-          $(document).ready(function(){
-                 $(".design").click(function() {
-                 $(".description").toggle();
-                 designIcon.style.display="none"
+          // $(document).ready(function(){
+          //        $(".design").click(function() {
+          //        $(".iconDesign").toggle();
+          //        designIcon.style.display="none"
 
-            });
-           });
+          //   });
+          //  });
 
-           $(document).ready(function(){
-                 $(".development").click(function() {
-                 $(".dev").toggle();
-                 developmentIcon.style.display='none'
+          //  $(document).ready(function(){
+          //        $(".development").click(function() {
+          //        $(".dev").toggle();
+          //        developmentIcon.style.display='none'
 
-            });
+          //   });
             
-           });
+          //  });
 
-           $(document).ready(function(){
-                 $(".management").click(function() {
-                 $(".project").toggle();
-                 projIcon.style.display='none'
+          //  $(document).ready(function(){
+          //        $(".management").click(function() {
+          //        $(".project").toggle();
+          //        projectIcon.style.display='none'
 
-            },
-            function(){
-                $(".management").click(function() {
-                 $(".project").toggle();
-                projIcon.style.display='yes'
-            })
-           });
+          //   },
+          //   function(){
+          //       $(".management").click(function() {
+          //        $(".project").toggle();
+          //       projIcon.style.display='initial'
+          //   })
+          //  });
 
 
         //   $(document) .ready(function() {
@@ -60,3 +60,17 @@ const projectIcon = document.querySelector('projIcon')
         //       const project = e.currentTarget;
         //       const projectImg = project.querySelector(".project__img");
         //       const projectCaption = project.querySelector(".project__title");
+
+
+        $(document) .ready(function () {
+
+          $(".design").click( function() {
+               $(".iconDesign").show()
+
+          }
+
+          )
+
+        }
+        ) 
+
