@@ -62,15 +62,15 @@
         //       const projectCaption = project.querySelector(".project__title");
 
 
-        $(document) .ready(function () {
+        // $(document) .ready(function () {
 
-          $(".design").click( function() {
-               $(".iconDesign").show()
+        //   $(".design").click( function() {
+        //        $(".iconDesign").show()
 
-          }$
+        //   }$
 
-          )
+        //   )
 
-        }
-        ) 
+        // }
+        // ) 
 
