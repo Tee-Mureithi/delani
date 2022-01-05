@@ -67,7 +67,7 @@
           $(".design").click( function() {
                $(".iconDesign").show()
 
-          }
+          }$
 
           )
 
