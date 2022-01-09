@@ -107,27 +107,32 @@
     
         <div class="d-md-flex justify-content-space-evenly align-items-centre">
             
-            <form action="" name="myform" method="post" onsubmit="returnvalidateform()" >
+            <form action="" name="myForm"   >
                 <div class="input-group  news-input ">
                     <div class="name">
                         <input
                         type="text" 
                         class="form-control transparent-input"
                         id="name"
-                        placeholder="Name..." >
+                        placeholder="Name..."
+                        required >
+                    
                     </div>
                     <div class="email">
                         <input
                         type="email" 
                         class="form-control transparent-input "
                         id="email"
-                        placeholder="Email..."    >
+                        placeholder="Email..."  
+                        required  >
                        
                     </div>
                     <div class="message">
-                        <textarea id="msg" class="transparent-input"  name="user_message" rows="7" cols="79" placeholder="Enter Text Here"></textarea> 
+                        <textarea id="msg" class="transparent-input"  name="user_message" rows="7" cols="79" placeholder="Enter required  Text Here"></textarea> 
+                        <button type="submit"  onsubmit="validateForm()"  >submit</button>
                     </div>
                
+                   
               </div>
             </form>
             

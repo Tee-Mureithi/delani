@@ -29,3 +29,11 @@ $(document).ready(function(){
     )
 })
 
+
+
+function validateForm(){
+    var name
+    document.getElementById("#name").innerHTML= name
+    
+}
+alert( + "your message has been received")
