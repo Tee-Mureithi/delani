@@ -184,5 +184,22 @@
     text-align: center;
 }
 
+.title1,
+.title2,
+.title3,
+.title4,
+.title5,
+.title6,
+.title7,
+.title8{
+    display: none;
+    color:white;
+    position: absolute;
+    padding: 100px 100px;
+    margin-top: 17px;
+    border: 5px solid white;
+    text-align: right;
+    
+
 
 
